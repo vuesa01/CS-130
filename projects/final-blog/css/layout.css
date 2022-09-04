@@ -1,0 +1,251 @@
+html {
+	background: #0B173B;
+}
+
+header {
+	margin-bottom: 100px;
+}
+
+h1 {
+	text-align: center;
+	color: #FBEFEF;
+}
+
+h2 {
+	font-family: 'Big Shoulders Stencil Text';
+	text-align: center;
+	color: #FBEFEF;
+}
+
+h3 {
+	color: #F2F2F2;
+	font-weight: bold;
+	font-family: 'Concert One', cursive;
+}
+
+figcaption {
+	color: #F2F2F2;
+	font-weight: bold;
+}
+
+p {
+	color: #F2F2F2;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+footer p.footer {
+	margin: 0 auto;
+	margin-top: 100px;
+	background: white;
+	color: #0B173B;
+	font-family: 'Rajdhani';
+	border: solid black;
+	text-align: center;
+	width: 50%;
+	padding: 5px;
+	border-radius: 2px;
+}
+
+#link-header {	
+    text-align: left;
+    color: white;
+}
+
+#thought {
+	text-align: left;
+	color: white;
+	font-family: 'Concert One';
+}
+
+#side-bar {
+	width: auto;
+	float: left;
+	padding: 10px;
+	border: 10px groove #DBA901;
+	height: auto;
+	border-radius: 50px;
+	background: #B40404;
+}
+
+#side-bar a {
+	background: #0B173B;
+	padding: 2px;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.single-article-page {
+	width: 80%;
+	float: left;
+	margin-bottom: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 20px;
+	border: 10px groove;
+	height: auto;
+	position: relative;
+	border: 10px groove #DBA901;
+	border-radius: 50px;
+	background: #B40404;
+}
+
+#about-page {
+	width: 70%;
+	margin-bottom: 50px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 10px groove;
+	height: 975px;
+	position: relative;
+	border: 10px groove #DBA901;
+	border-radius: 50px;
+	background: #B40404;
+}
+
+img {
+	width: 100%;
+  	height: auto;
+}
+
+#about-text {
+	display: block;
+	margin-top: 20px;
+}
+
+#about-me-pic {
+	width: 75%;
+	height: auto;
+}
+
+#me {
+	width: 10%;
+	height: auto;
+	display: block;
+}
+
+.article-picture {
+	width: 35%;
+}
+
+.pic {
+	width: 28%;
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	padding: 20px;
+	border: 10px groove #DBA901;
+	height: 500px;
+	position: relative;
+	border-radius: 50px;
+	background: #B40404;
+}
+
+#link1 {
+	left: 60px;
+	margin: 0 auto;
+	top: 6px;
+}
+
+#link2 {
+	right: 60px;
+	margin: 0 auto;
+	top: 6px;
+}
+
+ul.mainmenu {
+	width: 320px;
+	margin: 0 auto;
+	height: 67px;
+	position: relative;
+}
+
+ul.mainmenu
+li {
+	list-style: none;
+	display: inline;
+	background: #B40404;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 5px;
+	position: absolute;
+	border: 5px groove #DBA901;
+}
+
+a.readmore {
+	color: white;
+	background: blue;
+	padding: 10px;
+	border-radius: 50px;
+	font-style: italic;
+	position: absolute;
+	right: 7px;
+	bottom: 7px;
+}
+
+a:active, a:link, a:visited {
+	text-decoration: none;
+	font-size: 16pt;
+	color: #F2F2F2;
+}
+
+a:hover {
+	font-size: 16pt;
+	font-family: impact;
+}
+
+ul.mainmenu a:active, ul.mainmenu a:link, ul.mainmenu a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+ul.mainmenu a:hover {
+	font-size: 12pt;
+	color: red;
+	background: white;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+a.top {
+	color: #FBEFEF;
+}
+
+#social-links li{
+	list-style: none;
+	background: #0B173B;
+	border-radius: 10px;
+	width: 11%; 
+	margin-top: 5px;
+}
+
+#social-links a:active, #social-links a:link, #social-links a:visited {
+	color: white;
+	text-decoration: none;
+	font-family: 'Kaushan Script', cursive;
+}
+#social-links a:hover {
+	font-size: 28px;
+}
+
+#side-bar a {
+	font-size: 10pt;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .single-article-page {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #side-bar {
+    width: 10%;
+  }
+}

@@ -1,0 +1,72 @@
+<!DocType html>
+
+<html>
+
+  <head>
+    <title> Arsenal About Us Page </title>
+    <link href = "css/layout.css" type = "text/css" rel = "stylesheet">
+    <meta name="description" content="My Blog">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Sam Vue">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&family=Concert+One&family=Kaushan+Script&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <script>
+        window.alert("Welcome to the About Page");
+      </script>
+
+      <h1> Arsenal Fan Page </h1>
+
+      <ul class = "mainmenu">
+        <li id = "link1"> <a href = "index.html" target = "_self"> Home </a> </li>
+        <li id = "link2"> <a href = "about.html" target = "_self"> About </a> </li>
+      </ul>
+    </header>
+
+    <div id = "main-content">
+    	<h2> About This Fan Page </h2>
+
+    	<div id = "about-page">
+    		<figure>
+  				<img id = "about-me-pic" src = "images/arsenal-squad.jpg">
+          <img id = "me" src = "images/vue21.jpg">
+
+  				<p> My name is Sam Vue and I am from Lakeville, Minnesota. I was born in St. Paul Minnesota and have three younger siblings. I attended Lakeville North High School and I am currently attending Luther College in Decorah, Iowa. I have played soccer all my life and have continued to play collegiately with the Luther Men's Soccer team. I plan on majoring in Computer Science. </p>
+
+  				<p> I have been a huge Arsenal fan ever since I watched them win the FA Cup final against Hull City a few years back. The players they had really caught my eye and they played some great football back then. I have continued to support Arsenal ever since then because they are what got me into watching the game of football. </p>
+
+  				<p> This page is mainly about recent Arsenal news that have popped up within the last week or two. It is also based on players who are at the club and have the most attention on themselves. </p>
+        </figure>
+
+        <h2 id = "link-header"> Check Us Out! </h2>
+
+  			<ul id = "social-links">
+  				<li> <a class = "about-links" href = "https://www.facebook.com/Arsenal" target = "_blank"> Facebook </a> </li>
+  				<li> <a class = "about-links" href = "https://twitter.com/arsenal" target = "_blank"> Twitter </a> </li>
+  				<li> <a class = "about-links" href = "https://www.arsenal.com/" target = "_blank"> Website </a> </li>
+  			</ul>
+	    </div>
+
+      <div id = "thoughts">
+        <h2 id = "thought"> Your Thoughts On My Website? </h2>
+
+        <p id = "response"></p>
+        <button type="button" onclick='document.getElementById("response").innerHTML = "Nice"'>Good</button>
+        <button type="button" onclick='document.getElementById("response").innerHTML = "..."'>Bad</button>
+      </div>
+    </div>
+
+    <div style = "clear:both;"> </div>
+    
+    <footer>
+    	<p class = "footer"> Copyright Arsenal Fan News 2020</p> 
+    </footer>
+
+  </body>
+
+</html>
